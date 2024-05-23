@@ -1,0 +1,99 @@
+{
+
+"petcarecenter": [
+    {
+        "key": "PcId",
+        "type": "keyid"
+    }
+    
+    ,{
+        "key": "Address",
+        "label": "Address",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Name",
+        "label": "Name",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Description",
+        "label": "Description",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "BranchName",
+        "label": "BranchName",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Latitude",
+        "label": "Latitude",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isFloat"
+, "isPositive"
+        ]
+                            }
+    ,{
+        "key": "Longitude",
+        "label": "Longitude",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isFloat"
+, "isPositive"
+        ]
+                            }
+    ,{
+        "key": "Pincode",
+        "label": "Pincode",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isNumber"
+, "isPositive"
+        ]
+                            }
+    ,{
+        "key": "IsOperational",
+        "label": "IsOperational",
+        "type": "check",
+        "editable": true,
+        "validators": [
+             "isTruthy"
+        ]
+                            }
+    ,{
+        "key": "NearbyLocation",
+        "label": "NearbyLocation",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Logo",
+        "label": "Logo",
+        "type": "doc",
+        "accept": ".JPG,.JPEG,.PNG",
+        "width": "30%",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+]
+}

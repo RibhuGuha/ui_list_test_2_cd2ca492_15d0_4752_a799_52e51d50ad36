@@ -1,0 +1,49 @@
+{
+
+"petservice": [
+    {
+        "key": "ServiceId",
+        "type": "keyid"
+    }
+    
+    ,{
+        "key": "Price",
+        "label": "Price",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isFloat"
+, "isPositive"
+        ]
+                            }
+    ,{
+        "key": "ServiceAt",
+        "label": "ServiceAt",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "DogSize",
+        "label": "DogSize",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "ServiceType",
+        "label": "ServiceType",
+        "type": "dropdown",
+        "valueId": "Value",
+        "nameId": "Name",
+        "contentId": "Name",
+        "source": "PetServiceType",
+        "editable": true,
+        "validators": [
+             "isNumber"
+        ]
+                            }
+]
+}
